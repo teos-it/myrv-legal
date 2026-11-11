@@ -9,7 +9,7 @@
   <body>
     <main>
       <h1>My RV – Privacy Policy</h1>
-      <p class="meta">Effective 8 November 2026</p>
+      <p class="meta">Effective 11 November 2026</p>
 
       <p>
         This policy explains what Petro Arva PR Računarsko programiranje TEOS IT Novi Sad, Koste
@@ -51,6 +51,14 @@
           <td>Legitimate interest, legal obligation</td>
         </tr>
         <tr>
+          <td>
+            Pro subscription status: plan, trial and renewal dates, store, and an anonymous purchase
+            ID
+          </td>
+          <td>Unlocking Pro on your devices and restoring purchases</td>
+          <td>Contract</td>
+        </tr>
+        <tr>
           <td>Daily usage counts</td>
           <td>Preventing abuse; deleted after about a week</td>
           <td>Legitimate interest</td>
@@ -60,9 +68,13 @@
       <h2>Location</h2>
       <p>
         With your permission, the app uses your location while it is in use to show what's near you.
-        We don't store your location history on our servers. Trip stops and spots you add are saved
-        because you created them. Coordinates of trip stops are sent to our routing provider to
-        calculate distances.
+        To find nearby spots it sends a position to our servers, which use it only to answer that
+        request and don't store it. If you turn on background alerts (Pro) and allow location
+        "Always", the app also checks your location in the background, only after you have moved a
+        few kilometres or stopped at a service point, to alert you about water, dump, LPG and fuel
+        stops ahead. This is processed on your phone; to find spots ahead the app occasionally sends
+        a position rounded to about 1 km, which isn't stored either. We don't store your location
+        history on our servers. Trip stops and spots you add are saved because you created them.
       </p>
 
       <h2>Photos</h2>
@@ -98,18 +110,23 @@
           <td>USA</td>
         </tr>
         <tr>
-          <td>LocationIQ</td>
-          <td>Driving distance and time between trip stops</td>
-          <td>EU endpoint</td>
-        </tr>
-        <tr>
           <td>Google, Apple</td>
           <td>Sign-in, if you choose them</td>
           <td>USA / global</td>
         </tr>
         <tr>
-          <td>OpenFreeMap</td>
-          <td>Map images (receives your IP address, like any web request)</td>
+          <td>RevenueCat</td>
+          <td>
+            Subscriptions: checks App Store and Google Play purchases and tells the app whether Pro
+            is active (receives your account ID and purchase history, not your payment details)
+          </td>
+          <td>USA</td>
+        </tr>
+        <tr>
+          <td>Cloudflare</td>
+          <td>
+            Map images and offline map downloads (receives your IP address, like any web request)
+          </td>
           <td>Global</td>
         </tr>
       </table>
